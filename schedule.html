@@ -141,12 +141,6 @@
         </a>
       </div>
 
-
-      <!-- <div class="event-card bg-[#E8F6F7]">
-        <h3 class="text-lg font-bold text-[#008B94]">⚽ Sports Day</h3>
-        <p class="text-xs">29 November 2025 • Morning</p>
-      </div> -->
-
       <div class="flex gap-3 justify-center mb-4">
         <button class="tab-btn active" onclick="openTab('sportsSchedule')">Schedule</button>
         <button class="tab-btn" onclick="openTab('sportsDress')">Dress Code</button>
@@ -170,8 +164,8 @@
         <div class="event-card">
           <p class="text-sm leading-relaxed">
             <strong>Track Events:</strong> Team Jersey, Track Pants/Shorts, Sports Shoes<br>
-            <strong>Football/Futsal:</strong> Team Jersey, Shorts, Football Shoes(For Futsal shoes with studs will not be allowed), Socks & Shin Guards(compulsory)<br>
-            <strong>Note:</strong> Carry Water Bottle.
+            <strong>Football/Futsal:</strong> Team Jersey, Shorts, Football Shoes(For futsal, shoes with studs are not allowed), Socks and Shin Guards(compulsory).<br>
+            <strong>Note:</strong> Carry your own water bottle. Refill will be available.
           </p>
         </div>
       </div>
@@ -206,11 +200,6 @@
           <span class="material-icons text-[#C9A54A] text-xl">arrow_forward_ios</span>
         </a>
       </div>
-<!-- 
-      <div class="event-card bg-[#FFF8E7]">
-        <h3 class="text-lg font-bold text-[#C9A54A]">🏆 Awards Night</h3>
-        <p class="text-xs">29 November 2025 • Evening</p>
-      </div> -->
 
       <div class="flex gap-3 justify-center mb-4">
         <button class="tab-btn active" onclick="openTab('awardsSchedule')">Schedule</button>
@@ -222,8 +211,8 @@
           <table class="w-full text-sm text-center">
             <tr class="bg-[#C9A54A] text-white"><th>TIME</th><th>EVENT</th></tr>
             <tr><td>4:30 PM</td><td>Reporting & Hi-Tea</td></tr>
-            <tr><td>5:15 PM</td><td>GTM</td></tr>
-            <tr><td>6:15 PM</td><td>Bio Break</td></tr>
+            <tr><td>5:00 PM</td><td>GTM</td></tr>
+            <tr><td>6:00 PM</td><td>Bio Break</td></tr>
             <tr><td>6:30 PM</td><td>Treasure Hunt</td></tr>
             <tr><td>7:45 PM</td><td>Lamp Lighting</td></tr>
             <tr><td>8:00 PM</td><td>Awards</td></tr>
@@ -262,39 +251,69 @@
           <span class="material-icons text-[#008B94] text-xl">arrow_forward_ios</span>
         </a>
       </div>
-<!-- 
-      <div class="event-card bg-[#E8F6F7]">
-        <h3 class="text-lg font-bold text-[#008B94]">📸 Photoshoot</h3>
-        <p class="text-xs">30 November 2025 • Morning</p>
-      </div> -->
 
+      <div class="flex gap-3 justify-center mb-4">
+  <button class="tab-btn active" onclick="openTab('photoSchedule')">Schedule</button>
+  <button class="tab-btn" onclick="openTab('photoDress')">Dress Code</button>
+  <button class="tab-btn" onclick="openTab('photoStand')">Standing Arrangement</button>
+</div>
+
+<!-- Photoshoot Schedule -->
+<div id="photoSchedule" class="content-section active fade">
+  <div class="event-card text-center text-sm">
+    Reporting at <strong>06:30 AM Sharp</strong><br>
+  </div>
+
+  <!-- 🔶 Highlight Note -->
+  <div class="mt-4 mb-6">
+    <div class="bg-gradient-to-r from-[#FFF4D8] to-[#FFEBC7] border border-[#E6C472] 
+                text-[#A37610] px-4 py-3 rounded-xl shadow-sm text-center text-xs font-medium">
+      🍽️ <strong>Breakfast will be provided immediately after the Photoshoot at Unit 1</strong>  
+    </div>
+  </div>
+</div>
+
+<!-- Dress Code -->
+<div id="photoDress" class="content-section fade">
+  <div class="event-card text-sm">
+    Official T-shirt, Blue Denims (any shade) & Sports Shoes.
+  </div>
+</div>
+
+<!-- Standing Arrangement (Empty for Now) -->
+<div id="photoStand" class="content-section fade">
+  <div class="event-card text-sm text-center text-gray-500 italic">
+    📋 Standing arrangement details will be updated soon.
+  </div>
+</div>
+
+<!-- 
       <div class="flex gap-3 justify-center mb-4">
         <button class="tab-btn active" onclick="openTab('photoSchedule')">Schedule</button>
         <button class="tab-btn" onclick="openTab('photoDress')">Dress Code</button>
-      </div>
+      </div> -->
 
       <!-- Photoshoot Schedule -->
-      <div id="photoSchedule" class="content-section active fade">
+      <!-- <div id="photoSchedule" class="content-section active fade">
         <div class="event-card text-center text-sm">
           Reporting at <strong>06:30 AM Sharp</strong><br>
-          <!-- <span class="text-xs">Venue: Near Adage Phase 3</span> -->
-        </div>
+        </div> -->
 
         <!-- 🔶 Highlight Note -->
-        <div class="mt-4 mb-6">
+        <!-- <div class="mt-4 mb-6">
           <div class="bg-gradient-to-r from-[#FFF4D8] to-[#FFEBC7] border border-[#E6C472] 
                       text-[#A37610] px-4 py-3 rounded-xl shadow-sm text-center text-xs font-medium">
             🍽️ <strong>Breakfast will be provided immediately after the Photoshoot at Unit 1</strong>  
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Dress Code -->
-      <div id="photoDress" class="content-section fade">
+      <!-- <div id="photoDress" class="content-section fade">
         <div class="event-card text-sm">
-          Official T-Shirt, Blue Denims & Sport Shoes
+          Official T-shirt, Blue Denims (any shade) & Sports Shoes.
         </div>
-      </div>
+      </div> -->
 
       <!-- 🔹 Add extra spacing before Gala Night -->
       <div class="mt-10"></div>
@@ -318,11 +337,6 @@
           <span class="material-icons text-[#C9A54A] text-xl">arrow_forward_ios</span>
         </a>
       </div>
-
-      <!-- <div class="event-card bg-[#FFF8E7]">
-        <h3 class="text-lg font-bold text-[#C9A54A]">🎉 Gala Night</h3>
-        <p class="text-xs">30 November 2025 • Evening</p>
-      </div> -->
 
       <div class="flex gap-3 justify-center mb-4">
         <button class="tab-btn active" onclick="openTab('galaSchedule')">Schedule</button>
