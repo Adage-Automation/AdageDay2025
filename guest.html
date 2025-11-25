@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Guest Information — Adage Day 2025</title>
+  <title>Outstation Team Information — Adage Day 2025</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
   <!-- Tailwind CSS -->
@@ -12,28 +12,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
-    body { font-family: system-ui, sans-serif; background-color: #FFF8F3; padding-bottom: 80px; }
-    h1, h2, h3 { font-family: 'Poppins', sans-serif; }
+    body { font-family: 'Poppins', sans-serif; background-color: #FFF8F3; padding-bottom: 80px; }
     nav a { border-bottom: 2px solid transparent; transition: all 0.3s ease; }
     nav a:hover { color: #008B94; border-bottom: 2px solid #008B94; }
     .nav-active { color: #C9A54A !important; font-weight: 600; }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(8px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
     .animate-fadeIn { animation: fadeIn .6s ease-in-out; }
 
     .mobile-nav {
       background: rgba(255, 255, 255, 0.92);
       backdrop-filter: blur(12px);
-      box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 -4px 14px rgba(0,0,0,0.1);
       border-radius: 28px;
     }
-    .mobile-nav a {
-      flex: 1; text-align: center; padding: 6px 0; font-size: 11px;
-      transition: transform 0.2s ease;
-    }
+    .mobile-nav a { flex: 1; text-align: center; padding: 6px 0; font-size: 11px; transition: transform 0.2s ease; }
     .mobile-nav a:hover { background-color: rgba(201, 165, 74, 0.15); }
     .mobile-nav a:active { transform: scale(0.93); }
   </style>
@@ -52,7 +45,7 @@
         <a href="gallery.html">Gallery</a>
         <a href="rules.html">Guidelines</a>
         <a href="contacts.html">Contacts</a>
-        <a href="guest.html" class="nav-active">Guest</a>
+        <a href="guest.html" class="nav-active">Outstation</a>
       </nav>
     </div>
   </header>
@@ -63,7 +56,7 @@
   <div class="text-center mb-8">
     <h1 class="text-3xl font-bold text-[#008B94] flex items-center justify-center gap-2">
       <span class="material-icons">flight_takeoff</span>
-      Guest Information
+      Outstation Team Information
     </h1>
     <p class="text-xs text-gray-600">Travel • Accommodation • Pickup • Assistance</p>
     <div class="mt-2 w-20 h-1 bg-[#C9A54A] mx-auto rounded-full"></div>
@@ -72,15 +65,15 @@
   <div class="space-y-8">
 
     <!-- Pickup Schedule -->
-    <div class="bg-white rounded-xl p-5 shadow-md border border-gray-200">
-      <h3 class="font-semibold text-[#008B94] flex items-center gap-2 mb-3 text-sm">
-        <span class="material-icons">airport_shuttle</span>
+    <div class="bg-white rounded-xl p-6 shadow-md border border-gray-200">
+      <h3 class="font-semibold text-[#008B94] flex items-center gap-2 mb-4 text-sm border-b pb-2">
+        <span class="material-icons text-lg">airport_shuttle</span>
         Pickup & Drop Schedule
       </h3>
 
-      <div class="overflow-x-auto rounded-lg border border-gray-100">
+      <div class="overflow-x-auto rounded-lg border border-gray-100 shadow-sm">
         <table class="w-full text-[12px] text-center border-collapse">
-          <thead class="bg-[#008B94] text-white">
+          <thead class="bg-[#008B94] text-white uppercase tracking-wide">
             <tr>
               <th class="p-2 border">Date</th>
               <th class="p-2 border">Time</th>
@@ -88,66 +81,41 @@
               <th class="p-2 border">Drop Location</th>
             </tr>
           </thead>
-          <tbody>
-            <tr class="hover:bg-gray-50">
-              <td class="border p-2">28 Nov</td>
-              <td class="border p-2 font-semibold">10:00 AM</td>
-              <td class="border p-2">Goa Airport</td>
-              <td class="border p-2">Taj Palace Hotel</td>
-            </tr>
-            <tr class="hover:bg-gray-50">
-              <td class="border p-2">30 Nov</td>
-              <td class="border p-2 font-semibold">08:00 AM</td>
-              <td class="border p-2">Taj Palace Hotel</td>
-              <td class="border p-2">Adage Unit 1</td>
-            </tr>
-            <tr class="hover:bg-gray-50">
-              <td class="border p-2">1 Dec</td>
-              <td class="border p-2 font-semibold">05:00 PM</td>
-              <td class="border p-2">Adage Unit 2</td>
-              <td class="border p-2">Goa Airport</td>
-            </tr>
+          <tbody class="bg-white">
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">29-11-2025</td><td class="border p-2">4:15 AM</td><td class="border p-2">Hotel Golden Crown</td><td class="border p-2">Don Bosco Clg</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">29-11-2025</td><td class="border p-2">12:00 PM</td><td class="border p-2">Don Bosco Clg</td><td class="border p-2">Hotel Golden Crown</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">29-11-2025</td><td class="border p-2">3:45 PM</td><td class="border p-2">Hotel Golden Crown</td><td class="border p-2">Adage Unit-1</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">29-11-2025</td><td class="border p-2">11:00 PM</td><td class="border p-2">Adage Unit-1</td><td class="border p-2">Hotel Golden Crown</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">30-11-2025</td><td class="border p-2">5:45 AM</td><td class="border p-2">Hotel Golden Crown</td><td class="border p-2">Adage Unit-3</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">30-11-2025</td><td class="border p-2">7:30 AM</td><td class="border p-2">Adage Unit-3</td><td class="border p-2">Adage Unit-1</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">30-11-2025</td><td class="border p-2">9:00 AM</td><td class="border p-2">Adage Unit-1</td><td class="border p-2">Hotel Golden Crown</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">30-11-2025</td><td class="border p-2">4:15 PM</td><td class="border p-2">Hotel Golden Crown</td><td class="border p-2">Adage Unit-2</td></tr>
+            <tr class="hover:bg-[#F8FFFD]"><td class="border p-2">01-12-2025</td><td class="border p-2">12:30 AM</td><td class="border p-2">Adage Unit-2</td><td class="border p-2">Hotel Golden Crown</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="text-[11px] text-gray-500 mt-2">⏰ Please be ready 15 minutes before reporting time.</p>
+      <p class="text-[11px] text-gray-500 mt-2">⏰ Please be ready 15 minutes before pickup.</p>
     </div>
 
     <!-- Accommodation Info -->
-    <div class="bg-white rounded-xl p-5 shadow-md border border-gray-200">
+    <div class="bg-gradient-to-r from-[#FFFFFF] to-[#F5FBFB] rounded-xl p-6 shadow-md border border-gray-200">
       <h3 class="font-semibold text-[#008B94] flex items-center gap-2 mb-3 text-sm">
-        <span class="material-icons">hotel</span>
+        <span class="material-icons text-lg">hotel</span>
         Accommodation Details
       </h3>
-      <p class="text-sm text-gray-700 leading-relaxed">
-        <strong>Hotel:</strong> Taj Palace, Goa<br>
-        <strong>Check-In:</strong> 28 Nov, 12 PM<br>
-        <strong>Check-Out:</strong> 1 Dec, 11 AM
-      </p>
-    </div>
 
-    <!-- Room Allocation -->
-    <div class="bg-white rounded-xl p-5 shadow-md border border-gray-200">
-      <h3 class="font-semibold text-[#C9A54A] flex items-center gap-2 mb-2 text-sm">
-        <span class="material-icons">key</span>
-        Room Allocation
-      </h3>
-      <p class="text-sm text-gray-600">
-        Rooms are allocated based on department & region.<br>
-        Final allocation list will be uploaded soon.
-      </p>
-    </div>
+      <div class="bg-white p-4 rounded-lg border border-gray-100 shadow-sm">
+        <p class="text-sm text-gray-800 leading-relaxed mb-3">
+          <strong class="text-[#008B94]">Hotel:</strong> 
+          <span class="font-medium">Hotel Golden Crown, Goa</span>
+        </p>
 
-    <!-- Regional Assistance -->
-    <div class="bg-white rounded-xl p-5 shadow-md border border-gray-200">
-      <h3 class="font-semibold text-blue-600 flex items-center gap-2 mb-3 text-sm">
-        <span class="material-icons">support_agent</span>
-        Regional Assistance Contacts
-      </h3>
-      <div class="space-y-2 text-sm text-gray-700">
-        <p>• Mumbai, Delhi, Pune — Rahul Sharma</p>
-        <p>• Goa, Bengaluru — Priya Mehta</p>
-        <p>• Ahmedabad, Chennai — Sanjay Patel</p>
+        <a href="https://maps.app.goo.gl/2XJEdtT1tCaZRh9S7" target="_blank"
+           class="inline-flex items-center gap-2 px-4 py-2 text-xs bg-[#008B94]/15 text-[#008B94] rounded-full
+                  hover:bg-[#008B94] hover:text-white transition duration-300 shadow-sm">
+          <span class="material-icons text-sm">navigation</span>
+          Open in Google Maps
+        </a>
       </div>
     </div>
 
@@ -160,12 +128,12 @@
     <a href="schedule.html"><span class="material-icons">event</span><div>Schedule</div></a>
     <a href="rules.html"><span class="material-icons">rule</span><div>Guidelines</div></a>
     <a href="contacts.html"><span class="material-icons">call</span><div>Contacts</div></a>
-    <a href="guest.html" class="text-[#008B94]"><span class="material-icons">flight_takeoff</span><div>Guest</div></a>
+    <a href="guest.html" class="text-[#008B94]"><span class="material-icons">flight_takeoff</span><div>Outstation</div></a>
   </nav>
 
   <!-- Footer -->
   <footer class="text-center py-5 text-xs mt-12 border-t border-gray-200">
-    © 2025 Adage Automation Pvt. Ltd — Adage • Theme
+    © 2025 Adage Automation Pvt. Ltd<br/>One Team • One Soul
   </footer>
 
 </body>

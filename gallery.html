@@ -23,7 +23,7 @@
     .animate-fadeIn { animation: fadeIn .5s ease-in-out; }
 
     .mobile-nav {
-      background: rgba(255,255,255,0.92);
+      background: rgba(255, 255, 255, 0.92);
       backdrop-filter: blur(12px);
       box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.1);
       border-radius: 28px;
@@ -47,59 +47,72 @@
         <a href="gallery.html" class="nav-active">Gallery</a>
         <a href="rules.html">Guidelines</a>
         <a href="contacts.html">Contacts</a>
-        <a href="guest.html">Guest</a>
+        <a href="guest.html">Outstation</a>
       </nav>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <section class="max-w-5xl mx-auto px-4 py-8 animate-fadeIn">
+  <!-- Main Section -->
+  <main class="max-w-6xl mx-auto px-4 py-10 animate-fadeIn">
 
+    <!-- Page Title -->
     <div class="text-center mb-8">
       <h1 class="text-3xl font-bold text-[#008B94]">Event Memories</h1>
       <p class="text-xs text-gray-600">Sports • Awards • Photoshoot • Gala Night</p>
       <div class="mt-2 w-20 h-1 bg-[#C9A54A] mx-auto rounded-full"></div>
     </div>
 
-    <!-- Album Grid -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
-
-      <a href="uploads/sports/" class="relative h-44 rounded-xl overflow-hidden shadow-md hover:shadow-lg">
-        <img src="static/uploads/sports/img1.jpg" class="w-full h-full object-cover">
-        <div class="absolute bottom-0 inset-x-0 bg-black/40 text-white p-2 text-xs">Sports Day 📷</div>
+    <!-- Album Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Sports -->
+      <a href="static/uploads/sports/" class="relative rounded-xl overflow-hidden shadow-md hover:shadow-lg block h-48">
+        <img src="static/uploads/sports/img1.jpg" class="w-full h-full object-cover" alt="">
+        <div class="absolute bottom-0 inset-x-0 bg-black/45 text-white p-2 text-xs flex justify-between">
+          <span>Sports Day</span><span>📷</span>
+        </div>
       </a>
 
-      <a href="uploads/awards/" class="relative h-44 rounded-xl overflow-hidden shadow-md hover:shadow-lg">
-        <img src="static/uploads/awards/img1.jpg" class="w-full h-full object-cover">
-        <div class="absolute bottom-0 inset-x-0 bg-black/40 text-white p-2 text-xs">Awards Night 🏆</div>
+      <!-- Awards -->
+      <a href="static/uploads/awards/" class="relative rounded-xl overflow-hidden shadow-md hover:shadow-lg block h-48">
+        <img src="static/uploads/awards/img1.jpg" class="w-full h-full object-cover" alt="">
+        <div class="absolute bottom-0 inset-x-0 bg-black/45 text-white p-2 text-xs flex justify-between">
+          <span>Awards Night</span><span>🏆</span>
+        </div>
       </a>
 
-      <a href="uploads/photoshoot/" class="relative h-44 rounded-xl overflow-hidden shadow-md hover:shadow-lg">
-        <img src="static/uploads/photoshoot/img1.jpg" class="w-full h-full object-cover">
-        <div class="absolute bottom-0 inset-x-0 bg-black/40 text-white p-2 text-xs">Photoshoot 📸</div>
+      <!-- Photoshoot -->
+      <a href="static/uploads/photoshoot/" class="relative rounded-xl overflow-hidden shadow-md hover:shadow-lg block h-48">
+        <img src="static/uploads/photoshoot/img1.jpg" class="w-full h-full object-cover" alt="">
+        <div class="absolute bottom-0 inset-x-0 bg-black/45 text-white p-2 text-xs flex justify-between">
+          <span>Photoshoot</span><span>📸</span>
+        </div>
       </a>
 
-      <a href="uploads/gala/" class="relative h-44 rounded-xl overflow-hidden shadow-md hover:shadow-lg">
-        <img src="static/uploads/gala/img1.jpg" class="w-full h-full object-cover">
-        <div class="absolute bottom-0 inset-x-0 bg-black/40 text-white p-2 text-xs">Gala Night 🎉</div>
+      <!-- Gala -->
+      <a href="static/uploads/gala/" class="relative rounded-xl overflow-hidden shadow-md hover:shadow-lg block h-48">
+        <img src="static/uploads/gala/img1.jpg" class="w-full h-full object-cover" alt="">
+        <div class="absolute bottom-0 inset-x-0 bg-black/45 text-white p-2 text-xs flex justify-between">
+          <span>Gala Night</span><span>🎉</span>
+        </div>
       </a>
-
     </div>
 
-  </section>
+  </main>
 
-  <!-- Bottom Mobile Navigation -->
+  <!-- Mobile Bottom Navigation -->
   <nav class="mobile-nav fixed bottom-3 left-1/2 -translate-x-1/2 w-[92%] px-4 py-2 rounded-full flex justify-around md:hidden z-50 shadow-lg">
     <a href="index.html"><span class="material-icons">home</span><div>Home</div></a>
     <a href="schedule.html"><span class="material-icons">event</span><div>Schedule</div></a>
     <a href="rules.html"><span class="material-icons">rule</span><div>Guidelines</div></a>
     <a href="contacts.html"><span class="material-icons">call</span><div>Contacts</div></a>
-    <a href="guest.html"><span class="material-icons">flight_takeoff</span><div>Guest</div></a>
+    <a href="guest.html"><span class="material-icons">flight_takeoff</span><div>Outstation</div></a>
   </nav>
 
   <!-- Footer -->
   <footer class="text-center py-5 text-xs mt-12 border-t border-gray-200">
-    © 2025 Adage Automation Pvt. Ltd — Adage • Theme
+    © 2025 Adage Automation Pvt. Ltd
+    <br/>
+    One Team • One Soul
   </footer>
 
 </body>
